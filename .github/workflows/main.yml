@@ -6,7 +6,6 @@ env:
     DEPLOY_PACKAGE_NAME: "php_Eriks_${{ github.sha }}.zip"
     AWS_REGION_NAME: "eu-central-1"
 
-
 on:
     push:
         branches: 
